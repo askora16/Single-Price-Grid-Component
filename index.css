@@ -65,10 +65,7 @@ button {
 }
 
 button:hover {
-    box-shadow: 10px 5px teal;
-    background-color: white;
-    color: hsl(71, 73%, 54%);
-    font-size: 1.2em;
+    transform: scale(1.2);
 }
 
 .right {
@@ -86,10 +83,12 @@ button:hover {
 
 li {
     opacity: .7;
+    font-size: .8em;
+    padding: 5px;
 }
 
 li:hover {
-    font-size: 1.1em;
+    font-size: .9em;
     color: hsl(71, 73%, 54%);
 }
 
